@@ -1,0 +1,196 @@
+#testimonial {
+    position: relative;
+    padding: 90px 0;
+    text-align: center;
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 5%, rgba(255,255,255,0.5)), url('/images/header-bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#testimonial .container {
+    max-width: 720px;
+}
+
+#testimonial .testimonial-slider-nav {
+    position: relative;
+    width: 240px;
+    margin: 0 auto;
+}
+
+#testimonial .testimonial-slider-nav .slick-slide {
+    position: relative;
+    opacity: 0;
+    transition: .3s;
+}
+
+#testimonial .testimonial-slider-nav .slick-active {
+    opacity: 1;
+    transform: scale(1.6);
+}
+
+#testimonial .testimonial-slider-nav .slick-center {
+    z-index: 1;
+}
+
+#testimonial .testimonial-slider-nav .slick-slide img {
+    position: relative;
+    display: block;
+    margin-top: 23px;
+    width: 100%;
+    height: auto;
+    border-radius: 100px;
+}
+
+#testimonial .testimonial-slider-nav .slick-slide::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 55%;
+    top: 23px;
+    left: 0;
+    border-radius: 200px;
+    background: linear-gradient(to bottom, rgba(255, 214, 98, .5), rgba(0, 0, 0, .8));
+    z-index: 1;
+    opacity: 1;
+    transition: .3s;
+}
+
+#testimonial .testimonial-slider-nav .slick-slide.slick-center::after {
+    opacity: 0;
+}
+
+#testimonial .testimonial-slider {
+    position: relative;
+    padding-top: 70px;
+}
+
+#testimonial .testimonial-slider::before {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    left: calc(50% - 25px);
+    font-family: 'font Awesome 5 Free';
+    content: "\f10d";
+    font-weight: 900;
+    font-size: 50px;
+    color: #FFD662;
+}
+
+#testimonial .testimonial-slider h1 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+#testimonial .testimonial-slider h2 {
+    color: #555555;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#testimonial .testimonial-slider p {
+    font-size: 20px;
+    font-style: italic;
+    margin: 0;
+}
+
+
+
+/**********************************/
+/************ FAQs CSS ************/
+/**********************************/
+#faqs {
+    position: relative;
+    padding: 90px 0;
+    background: #ffffff;
+}
+
+#faqs .faqs-text {
+    position: relative;
+    width: 100%;
+}
+
+@media(max-width: 767.98px) {
+    #faqs .faqs-text {
+        margin-bottom: 30px;
+    }
+}
+
+#faqs .faqs-text h2 {
+    position: relative;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+#faqs .faqs-text h2::after {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    background: #333333;
+}
+
+#faqs .faqs-text p:last-child {
+    margin: 0;
+}
+
+#faqs .card {
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 0;
+}
+
+#faqs .card:last-child {
+    margin-bottom: 0;
+}
+
+#faqs .card-header {
+    padding: 0;
+    border: none;
+}
+
+#faqs .card-header a {
+    display: block;
+    width: 100%;
+    padding: 10px 15px 12px 15px;
+    color: #555555;
+    font-size: 16px;
+    font-weight: 400;
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+}
+
+#faqs .card-header [data-toggle="collapse"]:after {
+    font-family: 'font Awesome 5 Free';
+    content: "\f067";
+    float: right;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 900;
+    transition: .3s;
+}
+
+#faqs .card-header [data-toggle="collapse"][aria-expanded="true"]:after {
+    font-family: 'font Awesome 5 Free';
+    content: "\f068";
+    float: right;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 900;
+    transition: .3s;
+}
+
+#faqs .card-body {
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid;
+    border-color: transparent #eeeeee #eeeeee #eeeeee;
+}

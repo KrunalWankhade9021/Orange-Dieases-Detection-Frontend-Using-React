@@ -1,0 +1,12 @@
+#contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* full height */
+  background-color: #f9f9f9; /* optional */
+  padding: 40px 0;
+}
+
+#contact .text-center {
+  text-align: center;
+}

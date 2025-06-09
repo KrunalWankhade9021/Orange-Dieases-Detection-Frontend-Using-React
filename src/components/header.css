@@ -1,0 +1,89 @@
+#header {
+    position: relative;
+    padding: 200px 0;
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 5%, rgba(255,255,255,0.5)), url('/images/header-bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#header .header-content {
+    width: 100%;
+    text-align: left;
+}
+
+#header .header-content h2 {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+#header .header-content h2 span {
+    color: #000000;
+    text-transform: uppercase;
+}
+
+#header .header-content p {
+    color: #333333;
+    font-size: 22px;
+}
+
+#header .header-content .btn {
+    padding: 7px 30px 8px 30px;
+    font-size: 22px;
+    color: #333333;
+    letter-spacing: 3px;
+    border: 2px solid #333333;
+    transition: .3s;
+}
+
+#header .header-content .btn:hover {
+    color: #333333;
+    border-color: #FFD662;
+    background: #FFD662;
+}
+
+#header .header-img {
+    position: relative;
+    overflow: hidden;
+    text-align: right;
+}
+
+#header .header-img img {
+    width: 100%;
+}
+
+@media (max-width: 991.98px) {  
+    #header .header-content h2 {
+        font-size: 45px;
+    }
+
+    #header .header-content h2 span {
+        font-size: 55px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    #header .header-content {
+        text-align: center;
+    }
+
+    #header .header-img {
+        text-align: center;
+        margin-bottom: 45px;
+    }
+}
+
+@media (max-width: 575.98px) {  
+    #header .header-content h2 {
+        font-size: 35px;
+    }
+
+    #header .header-content h2 span {
+        font-size: 45px;
+    }
+    
+    #header .header-content p {
+        font-size: 18px;
+    }
+}
