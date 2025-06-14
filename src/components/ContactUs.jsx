@@ -13,10 +13,10 @@ const ContactSection = () => {
                 If you have any questions, suggestions, or need assistance, feel free to reach out.
                 We’re here to help!
               </p>
+              <h3><i className="fa fa-envelope"></i> krunal.wankhade1810@gmail.com</h3>
+              <h3><i className="fa fa-phone"></i> +91-9021955503</h3>
               <h3><i className="fa fa-map-marker"></i> Chichwadgaon, Pune, Maharashtra, India</h3>
-              <h3><i className="fa fa-envelope"></i> parthyangandul@gmail.com</h3>
-              <h3><i className="fa fa-phone"></i> +91-8530731105</h3>
-              <a className="btn" href="mailto:parthyangandul@gmail.com">Contact Us</a>
+              <a className="btn" href="mailto:krunal.wankhade1810@gmail.com">Contact Us</a>
               <div className="social">
                 <a href="https://twitter.com/htmlcodex" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
                 <a href="https://facebook.com/htmlcodex" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a>
